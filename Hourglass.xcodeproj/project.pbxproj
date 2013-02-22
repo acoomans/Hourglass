@@ -28,6 +28,8 @@
 		51540FAE16D7285D007600A9 /* ACHourglass.m in Sources */ = {isa = PBXBuildFile; fileRef = 51540FAD16D7285D007600A9 /* ACHourglass.m */; };
 		51540FB116D72951007600A9 /* ACHourglassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51540FB016D72951007600A9 /* ACHourglassTests.m */; };
 		5154106016D73097007600A9 /* ACAsyncTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154105F16D73097007600A9 /* ACAsyncTestCase.m */; };
+		5154106E16D733AE007600A9 /* Hourglass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154106D16D733AE007600A9 /* Hourglass.m */; };
+		5154107116D7342F007600A9 /* HourglassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154107016D7342F007600A9 /* HourglassTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		5154105E16D73097007600A9 /* ACAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACAsyncTestCase.h; sourceTree = "<group>"; };
 		5154105F16D73097007600A9 /* ACAsyncTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACAsyncTestCase.m; sourceTree = "<group>"; };
 		5154106116D7316A007600A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5154106C16D73396007600A9 /* Hourglass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hourglass.h; sourceTree = "<group>"; };
+		5154106D16D733AE007600A9 /* Hourglass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hourglass.m; sourceTree = "<group>"; };
+		5154106F16D7342F007600A9 /* HourglassTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourglassTests.h; sourceTree = "<group>"; };
+		5154107016D7342F007600A9 /* HourglassTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourglassTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,8 @@
 		51540F7316D7279C007600A9 /* Hourglass */ = {
 			isa = PBXGroup;
 			children = (
+				5154106C16D73396007600A9 /* Hourglass.h */,
+				5154106D16D733AE007600A9 /* Hourglass.m */,
 				51540FAC16D7285D007600A9 /* ACHourglass.h */,
 				51540FAD16D7285D007600A9 /* ACHourglass.m */,
 			);
@@ -106,6 +114,8 @@
 			children = (
 				5154105D16D73097007600A9 /* AsyncTestKit */,
 				51540F9B16D7279D007600A9 /* Supporting Files */,
+				5154106F16D7342F007600A9 /* HourglassTests.h */,
+				5154107016D7342F007600A9 /* HourglassTests.m */,
 				51540FAF16D72951007600A9 /* ACHourglassTests.h */,
 				51540FB016D72951007600A9 /* ACHourglassTests.m */,
 			);
@@ -229,6 +239,8 @@
 				51540FAE16D7285D007600A9 /* ACHourglass.m in Sources */,
 				51540FB116D72951007600A9 /* ACHourglassTests.m in Sources */,
 				5154106016D73097007600A9 /* ACAsyncTestCase.m in Sources */,
+				5154106E16D733AE007600A9 /* Hourglass.m in Sources */,
+				5154107116D7342F007600A9 /* HourglassTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
