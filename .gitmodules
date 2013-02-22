@@ -1,0 +1,3 @@
+[submodule "submodules/AsyncTestKit"]
+	path = submodules/AsyncTestKit
+	url = git@github.com:acoomans/AsyncTestKit.git
