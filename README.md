@@ -38,7 +38,7 @@ The two are a little bit different and their usage. See documentation and header
 
 ## Documentation
 
-Note: Appledoc only supports classes. SO, unfortunately, the dispatch-like hourglass is not documented by the following procedure.
+Note: Unfortunately, _appledoc_ does not support functions; so, the dispatch-like hourglass is not documented by the following procedure.
 
 install appledoc:
 
